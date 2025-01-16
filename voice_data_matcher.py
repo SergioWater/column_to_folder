@@ -3,9 +3,9 @@ import pandas as pd
 import shutil
 
 # 1) Define Paths
-metadata_path = "/Users/water/Desktop/large_data/validated.tsv"
-clips_folder = "/Users/water/Desktop/large_data/clips"
-validated_clips_folder = "/Users/water/Desktop/large_data/validated_clips"
+metadata_path = '/Users/water/Desktop/corpus 20/cv-corpus-20.0-2024-12-06 2/en/validated.tsv'
+clips_folder = '/Users/water/Desktop/corpus 20/cv-corpus-20.0-2024-12-06 2/en/clips'
+validated_clips_folder = '/Users/water/Desktop/corpus 20/cv-corpus-20.0-2024-12-06 2/en/valid_voice'
 
 # 2) Create validated_clips folder if it doesn't exist
 os.makedirs(validated_clips_folder, exist_ok=True)
